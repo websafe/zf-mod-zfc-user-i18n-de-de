@@ -1,7 +1,7 @@
 {
     "name": "websafe/zf-mod-zfc-user-i18n-de-de",
     "description": "German de_DE translation / language pack module for the [ZF-Commons/ZfcUser] module. Deutsche Übersetzung / Sprachdatei Modul für das [ZF-Commons/ZfcUser] Modul.",
-    "version": "0.0.1",
+    "version": "0.0.1-dev",
     "type": "zf-module",
     "license": "MIT",
     "keywords": [
@@ -49,7 +49,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.0.1"
+            "dev-master": "0.0.1-dev"
         }
     },
     "dist": {
