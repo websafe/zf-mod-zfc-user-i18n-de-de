@@ -1,0 +1,59 @@
+{
+    "name": "websafe/zf-mod-zfc-user-i18n-de-de",
+    "description": "German de_DE translation / language pack module for the [ZF-Commons/ZfcUser] module. Deutsche Übersetzung / Sprachdatei Modul für das [ZF-Commons/ZfcUser] Modul.",
+    "version": "0.0.1",
+    "type": "zf-module",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "module",
+        "translation",
+        "i18n",
+        "language pack",
+        "ZF-Commons",
+        "ZfcUser",
+        "DE",
+        "de_DE",
+        "german",
+        "Deutsch",
+        "Uebersetzung",
+        "Sprachdatei"
+    ],
+    "homepage": "https://github.com/websafe/zf-mod-zfc-user-i18n-de-de",
+    "authors": [
+        {
+            "name": "Thomas Szteliga",
+            "email": "ts@websafe.pl",
+            "homepage": "https://websafe.pl/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@websafe.pl",
+        "issues": "https://github.com/websafe/zf-mod-zfc-user-i18n-de-de/issues",
+        "source": "https://github.com/websafe/zf-mod-zfc-user-i18n-de-de"
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "zf-commons/zfc-user": "This module is a translation / language pack for [zf-commons/zfc-user], so You probably should install it too."
+    },
+    "autoload": {
+        "psr-0": {
+            "WebsafeZfModZfcUserI18nDeDe": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1"
+        }
+    },
+    "dist": {
+        "url": "https://github.com/websafe/zf-mod-zfc-user-i18n-de-de/archive/master.zip",
+        "type": "zip"
+    }
+}
